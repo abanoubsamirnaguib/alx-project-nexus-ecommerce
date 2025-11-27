@@ -8,3 +8,7 @@ requests
 psycopg[binary]
 python-dotenv
 cryptography
+dj-database-url
+gunicorn
+whitenoise
+uvicorn

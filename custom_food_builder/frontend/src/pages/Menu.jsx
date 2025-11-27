@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { formatCurrency } from '../utils/currency'
 import './Menu.css'
 
-const API_URL = 'http://localhost:8000/api'
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
 
 function Menu() {
     const [categories, setCategories] = useState([])
